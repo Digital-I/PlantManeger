@@ -1,0 +1,167 @@
+[
+  {
+    "id": "root_rot",
+    "name": "Корневая гниль",
+    "latinName": "Pythium / Phytophthora",
+    "description": "Грибковая болезнь корней из-за переувлажнения.",
+    "cause": ["overwatering", "poor_drainage"],
+    "symptoms": ["yellow_leaves", "wilting", "soft_stem", "root_discoloration", "bad_smell"],
+    "affectedPlantIds": ["monstera", "spathiphyllum", "calathea", "anthurium", "fittonia"],
+    "treatment": "Достать растение, обрезать гнилые корни, пересадить в свежий грунт, сократить полив.",
+    "severity": "high"
+  },
+  {
+    "id": "powdery_mildew",
+    "name": "Мучнистая роса",
+    "latinName": "Erysiphales",
+    "description": "Грибковое заболевание в виде белого налета на листьях.",
+    "cause": ["fungus", "low_humidity"],
+    "symptoms": ["white_coating", "stunted_growth", "leaf_drop", "brown_spots"],
+    "affectedPlantIds": ["begonia_rex", "saintpaulia", "peperomia", "dracaena"],
+    "treatment": "Удалить пораженные листья, обработать фунгицидом, улучшить вентиляцию.",
+    "severity": "medium"
+  },
+  {
+    "id": "gray_mold",
+    "name": "Серая гниль",
+    "latinName": "Botrytis cinerea",
+    "description": "Грибковая инфекция, вызывающая пушистый серый налет.",
+    "cause": ["fungus", "overwatering", "cold_draft"],
+    "symptoms": ["white_coating", "soft_stem", "wilting", "leaf_drop", "brown_spots"],
+    "affectedPlantIds": ["saintpaulia", "begonia_rex", "schlumbergera", "anthurium"],
+    "treatment": "Обрезать все пораженные части, обработать фунгицидом, нормализовать полив и температуру.",
+    "severity": "high"
+  },
+  {
+    "id": "spider_mite",
+    "name": "Паутинный клещ",
+    "latinName": "Tetranychus urticae",
+    "description": "Мелкий вредитель, оплетающий листья тонкой паутиной.",
+    "cause": ["pests", "low_humidity"],
+    "symptoms": ["webbing", "yellow_leaves", "brown_tips", "curling_leaves", "stunted_growth"],
+    "affectedPlantIds": ["dracaena", "ficus_elastica", "monstera", "epipremnum", "hoya", "dypsis"],
+    "treatment": "Промыть листья мыльным раствором, повысить влажность, применить акарициды.",
+    "severity": "medium"
+  },
+  {
+    "id": "aphid",
+    "name": "Тля",
+    "latinName": "Aphidoidea",
+    "description": "Мелкие насекомые, высасывающие сок из молодых побегов.",
+    "cause": ["pests"],
+    "symptoms": ["curling_leaves", "sticky_leaves", "yellow_leaves", "stunted_growth", "leaf_drop"],
+    "affectedPlantIds": ["strelitzia", "ficus_lyrata", "chlorophytum", "begonia_rex", "hoya"],
+    "treatment": "Смыть вредителей напором воды, обработать инсектицидом или мыльным раствором.",
+    "severity": "medium"
+  },
+  {
+    "id": "scale_insect",
+    "name": "Щитовка",
+    "latinName": "Diaspididae",
+    "description": "Вредитель с твердым панцирем, присасывающийся к листьям и стеблям.",
+    "cause": ["pests"],
+    "symptoms": ["sticky_leaves", "brown_spots", "yellow_leaves", "stunted_growth", "leaf_drop"],
+    "affectedPlantIds": ["ficus_elastica", "ficus_lyrata", "dracaena", "yucca", "hoya", "monstera"],
+    "treatment": "Удалить вредителей ватным тампоном со спиртом, обработать инсектицидом.",
+    "severity": "medium"
+  },
+  {
+    "id": "mealybug",
+    "name": "Мучнистый червец",
+    "latinName": "Pseudococcidae",
+    "description": "Насекомое, покрытое белым восковым налетом, похожим на вату.",
+    "cause": ["pests"],
+    "symptoms": ["white_coating", "sticky_leaves", "stunted_growth", "yellow_leaves", "leaf_drop"],
+    "affectedPlantIds": ["saintpaulia", "echeveria", "schlumbergera", "anthurium", "dracaena"],
+    "treatment": "Снять насекомых ватной палочкой со спиртом, промыть растение, применить инсектицид.",
+    "severity": "medium"
+  },
+  {
+    "id": "underwatering",
+    "name": "Пересушка земляного кома",
+    "latinName": "-",
+    "description": "Сильное пересыхание грунта из-за редкого полива.",
+    "cause": ["underwatering", "low_humidity"],
+    "symptoms": ["wilting", "brown_tips", "leaf_drop", "curling_leaves", "yellow_leaves"],
+    "affectedPlantIds": ["fittonia", "maranta", "calathea", "spathiphyllum", "nephrolepis"],
+    "treatment": "Обильно полить методом погружения, восстановить регулярный полив и повысить влажность.",
+    "severity": "medium"
+  },
+  {
+    "id": "overfertilizing",
+    "name": "Перекорм удобрениями",
+    "latinName": "-",
+    "description": "Избыток солей в грунте из-за чрезмерного внесения подкормок.",
+    "cause": ["overfertilizing"],
+    "symptoms": ["brown_tips", "brown_spots", "wilting", "leaf_drop", "stunted_growth"],
+    "affectedPlantIds": ["phalaenopsis", "ficus_elastica", "monstera", "dracaena", "yucca"],
+    "treatment": "Промыть грунт большим количеством воды, пересадить в свежий субстрат.",
+    "severity": "medium"
+  },
+  {
+    "id": "low_light",
+    "name": "Недостаток освещения",
+    "latinName": "-",
+    "description": "Проблемы с ростом и окраской из-за нехватки света.",
+    "cause": ["low_light"],
+    "symptoms": ["yellow_leaves", "stunted_growth", "leaf_drop", "curling_leaves"],
+    "affectedPlantIds": ["aloe_vera", "crassula", "echeveria", "strelitzia", "yucca", "senecio_rowleyanus"],
+    "treatment": "Переставить растение в более светлое место или использовать фитолампу.",
+    "severity": "low"
+  },
+  {
+    "id": "cold_draft",
+    "name": "Обморожение от сквозняка",
+    "latinName": "-",
+    "description": "Повреждение тканей растения из-за воздействия холодного воздуха.",
+    "cause": ["cold_draft"],
+    "symptoms": ["wilting", "brown_spots", "leaf_drop", "soft_stem", "yellow_leaves"],
+    "affectedPlantIds": ["calathea", "maranta", "anthurium", "spathiphyllum", "fittonia", "begonia_rex"],
+    "treatment": "Переставить растение в теплое место без сквозняков, обрезать поврежденные листья.",
+    "severity": "medium"
+  },
+  {
+    "id": "leaf_spot",
+    "name": "Пятнистость листьев",
+    "latinName": "Alternaria / Cercospora",
+    "description": "Грибковое заболевание, проявляющееся в виде сухих пятен.",
+    "cause": ["fungus", "overwatering"],
+    "symptoms": ["brown_spots", "yellow_leaves", "leaf_drop", "stunted_growth"],
+    "affectedPlantIds": ["ficus_lyrata", "ficus_elastica", "dracaena", "monstera", "epipremnum"],
+    "treatment": "Удалить пораженные листья, обработать фунгицидом, отрегулировать полив.",
+    "severity": "medium"
+  },
+  {
+    "id": "stem_rot",
+    "name": "Стеблевая гниль",
+    "latinName": "Sclerotinia / Rhizoctonia",
+    "description": "Грибковое поражение основания стебля, приводящее к его размягчению.",
+    "cause": ["fungus", "poor_drainage", "overwatering"],
+    "symptoms": ["soft_stem", "wilting", "yellow_leaves", "root_discoloration", "bad_smell"],
+    "affectedPlantIds": ["crassula", "echeveria", "haworthia", "senecio_rowleyanus", "beaucarnea"],
+    "treatment": "Срезать пораженные участки до здоровой ткани, обработать фунгицидом, сократить полив.",
+    "severity": "high"
+  },
+  {
+    "id": "anthracnose",
+    "name": "Антракноз",
+    "latinName": "Colletotrichum",
+    "description": "Грибковая болезнь, вызывающая появление крупных бурых пятен с желтой каймой.",
+    "cause": ["fungus", "low_humidity"],
+    "symptoms": ["brown_spots", "yellow_leaves", "leaf_drop", "stunted_growth", "curling_leaves"],
+    "affectedPlantIds": ["ficus_elastica", "ficus_lyrata", "dracaena", "yucca", "monstera"],
+    "treatment": "Обрезать все больные листья, обработать медьсодержащим фунгицидом, улучшить уход.",
+    "severity": "medium"
+  },
+  {
+    "id": "edema",
+    "name": "Отек листьев",
+    "latinName": "-",
+    "description": "Разрыв тканей листа из-за избытка влаги при недостатке света.",
+    "cause": ["overwatering", "low_light"],
+    "symptoms": ["brown_spots", "brown_tips", "yellow_leaves", "curling_leaves", "stunted_growth"],
+    "affectedPlantIds": ["ficus_elastica", "ficus_lyrata", "crassula", "yucca", "dracaena"],
+    "treatment": "Нормализовать полив, обеспечить растению достаточное освещение.",
+    "severity": "low"
+  }
+]
